@@ -130,5 +130,16 @@ document.getElementById('setAlarm').addEventListener('click', () => {
    }
 });
 
+['click', 'touchstart'].forEach(event => {
+    document.body.addEventListener(event, () => {
+        alarmSound.play().then(() => {
+            alarmSound.pause();
+            alarmSound.currentTime = 0;
+         }).catch((erro) => {
+            console.log('Erro ao desbloquear áudio', erro);
+         });
+    }, {once: true});
+});
+
 
 
