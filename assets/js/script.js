@@ -44,6 +44,11 @@ function updateClock() {
                 background: '#03152e',
                 color: '#00ff00',
                 confirmButtonColor: '#00ff00'
+            }).then((result) => {
+                if(result.isConfirmed) {
+                    alarmSound.pause();
+                    alarmSound.currentTime = 0;
+                }
             });
             
             alarmHour = null;
