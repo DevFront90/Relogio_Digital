@@ -1,0 +1,61 @@
+/* Media Queries */
+
+@media screen and (max-width:854px) {
+
+    .box {
+        width: 120px;
+        height: 200px;
+        border-radius: 20px 0 20px;
+    }
+
+}
+
+@media screen and (max-width:680px ) {
+    .title h1 {
+        font-size: 30px;
+    }
+
+    #ampm h3 {
+         font-size: 20px;
+    }
+
+    #date {
+       font-size: 15px;
+    }
+}
+
+@media screen and (max-width:600px)  {
+    .box {
+        width: 90px;
+        height: 90px;
+        border-radius: 20px 20px;
+    }
+
+    .wrapper {
+       gap: 15px;
+    }
+}
+
+@media screen and (max-width:400px ) {
+    .title h1 {
+        font-size: 24px;
+    }
+
+    .box {
+        width: 70px;
+        height: 70px;
+      
+    }
+
+    .wrapper {
+       gap: 14px;
+    }
+
+    .box h3 {
+       font-size: 30px;
+    }
+
+    #date {
+        font-size: 11px;
+     }
+}

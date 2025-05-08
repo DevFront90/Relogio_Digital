@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/resete.css"/>
+    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <!---->
+
+    <!-- SweetAlert2 CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <!---->
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1>Relógio Digital</h1>
+            <p id="date"></p>
+        </div>
+
+        <div class="wrapper">
+
+            <div class="box" id="hours">
+                 <h3>00</h3>
+            </div>
+            <span>:</span>
+            <div class="box" id="mins">
+                 <h3>00</h3>
+            </div>
+            <span>:</span>
+            <div class="box" id="seconds">
+                 <h3>00</h3>
+            </div>
+
+            <div id="ampm">
+                <h3>AM</h3>
+            </div>
+
+        </div>
+
+        <div class="alarm">
+            <h2>Definir Alarme</h2>
+           <div class="flex">
+                <input type="number" id="alarmHour" placeholder="Hora" min="0" max="23"/>
+                <input type="number" id="alarmMinute" placeholder="Min" min="0" max="59"/>
+                <button id="setAlarm">Ativar Alarme</button>
+           </div>
+        </div>
+
+
+
+    </div>
+
+  
+
+
+    <!--script JS-->
+    <script src="./assets/js/script.js"></script>
+    <!---->
+
+    <!-- SweetAlert2 JS -->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!---->
+</body>
+</html>
