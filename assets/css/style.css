@@ -79,6 +79,12 @@
     font-family:Noto Sans;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .alarm {
     display: flex;
     align-items: center;
