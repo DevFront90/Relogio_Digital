@@ -58,4 +58,42 @@
     #date {
         font-size: 11px;
      }
+
+     .alarm h2 {
+        font-size: 23px;
+    }
+
+    
+    button#setAlarm {
+       padding: 10px 18px;
+      }
+}
+
+
+@media screen and (max-width:375px){
+    .title h1 {
+        font-size: 25px;
+    }
+
+    .box {
+        width: 65px;
+        height: 65px;
+      
+    }
+
+    .wrapper {
+       gap: 14px;
+    }
+
+    .box h3 {
+       font-size: 30px;
+    }
+
+    #date {
+        font-size: 11px;
+    }
+
+     .alarm h2 {
+        font-size: 23px;
+    }
 }
